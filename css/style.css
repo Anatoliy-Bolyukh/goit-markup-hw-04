@@ -181,12 +181,14 @@ img {
 }
 
 .hero-container {
-    padding: 200px 252px 200px 252px;
+    padding: 200px 0px;
 
 }
 
 .hero-title {
     margin-bottom: 30px;
+    margin: 0 auto;
+    width: 696px;
 
     color: #FFFFFF;
     font-weight: 900;
@@ -296,7 +298,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
 }
 
 
@@ -344,16 +345,17 @@ img {
     justify-content: center;
 }
 
+.avatar div {
+    padding: 30px 0px;
+}
+
 .card {
     background-color: #FFFFFF;
 }
 
-.avatar img {
-    margin-bottom: 30px;
-}
-
 .card-title {
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .avatar h3 {
@@ -417,7 +419,8 @@ img {
 /* підвал */
 
 .footer {
-    padding: 60px;
+    padding: 60px 0px;
+    background-color: #2F303A;
 }
 
 .footer .container {
@@ -537,11 +540,8 @@ img {
     margin-left: 8px;
 }
 
-.list-button .item {}
-
 .button-control {
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 22px;
     background-color: var(--background-botton);
     color: var(--main-color);
 
@@ -640,8 +640,3 @@ img {
 }
 
 /* підвал */
-
-.footer {
-    padding-bottom: 60px;
-    background-color: #2F303A;
-}
